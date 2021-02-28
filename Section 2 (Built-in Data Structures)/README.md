@@ -19,7 +19,7 @@ is a collection which is **unordered** and **unindexed**. No duplicate members. 
 x = {"a", "b", "c"}
 
 5. Array <br/>
-is a sequential arrangement of data elements paired with the index of the data element.
+is a sequential arrangement of data elements paired with the index of the data element. Only Array can do mathematical operation.
 
 6. Dataframe <br/>
 is two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). 
