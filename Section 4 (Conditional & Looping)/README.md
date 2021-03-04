@@ -6,15 +6,15 @@
 ```
 # statement if
 if x > 8:
-    return 'Good'
+    print('Good')
 ```
 
 ```
 # statement if else
 if x > 8:
-    return 'Good'
+    print('Good')
 else:
-    return 'Bad'
+    print('Bad')
 ```
 
 2. Chained conditionals
@@ -22,23 +22,23 @@ else:
 ```
 # statement if elif else
 if x <= 8 :
-    return 'Bad'
+    print 'Bad'
 elif (x > 8) & (x < 12):
-    return 'Enough'
+    print('Enough')
 else:
-    return 'Good'
+    print('Good')
 ```
 
 3. Nested conditionals
 ```
 # statement if inside in if
 if x < y:
-    return 'Good'
+    print('Good')
 else:
     if x > y :
-        return 'Bad'
+        print('Bad')
     else:
-        return 'Same' 
+        print('Same')
 ``` 
 
 ## B. Looping
