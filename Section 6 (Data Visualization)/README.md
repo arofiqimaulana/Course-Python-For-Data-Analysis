@@ -2,6 +2,7 @@
 Barplot, pie chart, histogram, dan line chart termasuk dalam standard chart. Sedangka stacked, side-by-side, combo, distribution, heatmap, boxplot termasuk dalam advanced chart. Di python terdapat tiga macam package untuk visualisasi data. package seaborn dibangun di atas matloplib, sehingga fitur seaborn lebih tinggi. Sedangkan plotly merupakan interactive chart (terdapat animasi/pergerakan). 
 
 ## Matplotlib
+Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 ```
 # Barplot Horizontal
 import matplotlib.pyplot as plt
@@ -23,6 +24,7 @@ plt.hist(df.total,bins=30) #Histogram
 
 
 ## Seaborn
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 ```
 import seaborn as sns
 plt.figure(figsize=(8, 8))
@@ -39,6 +41,7 @@ sns.lineplot(x="timepoint", y="signal", hue="event",data=fmri) #Line Chart
 ```
 
 ## Plotly
+Known as Interactive dashbord.
 ```
 import plotly.express as px
 
