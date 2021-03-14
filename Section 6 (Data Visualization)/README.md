@@ -41,7 +41,7 @@ sns.lineplot(x="timepoint", y="signal", hue="event",data=fmri) #Line Chart
 ```
 
 ## Plotly
-Known as Interactive dashbord.
+Plotly is a data visualization company that makes it easy to build, test, and deploy beautiful interactive web apps, charts and graphs.
 ```
 import plotly.express as px
 
